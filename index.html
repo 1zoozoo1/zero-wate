@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>index1</title>
+  <style>
+  @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+  a
+  {
+    text-decoration:none;
+  }
+
+  a:link
+  {
+     color: black;
+  }
+
+  a:visited
+  {
+     color: black;
+  }
+
+
+  #wrap
+  {
+    width: 1366px;
+    height: 5400px;
+    margin: auto;
+  }
+/*@font-face {
+  font-family: "NanumSquare_acR";
+  src:url("font/NanumSquare_acR.ttf") format("truetype");
+}
+body
+{
+  font-family: NanumSquare_acR
+}*/
+
+#header1
+  {
+  width:1366px;
+  height:75px;
+  background-color:#ffffff;
+  opacity:90%; position:fixed;
+  top:0;
+  z-index: 100;
+  }
+
+#div1
+  {
+    width:1366px;
+    height:250px;
+    background-color:#ffffff;
+  }
+
+#div2
+  {
+    width:1366px;
+    height:650px;
+    background-color:#ffffff;
+  }
+
+#div3
+  {
+    width:1366px;
+    height:324px;
+    background-color:#ffffff;
+    /*font-family : 나눔고딕 Light;*/
+  }
+
+#div4
+  {
+    width:1366px;
+    height:370px;
+    background-color:#ffffff;
+    margin-top:-25px;
+   }
+
+#div5
+  {
+    width:1366px;
+    height:649px;
+    background-color:#ffffff;
+  }
+
+#div6
+  {
+    width:1366px;
+    height:660px;
+    margin-top: -15px;
+    background-color:#ffffff;
+  }
+
+#div7
+  {
+    width:1366px;
+    height:336px;
+    background-color:#ffffff;
+  }
+
+#div8
+  {
+    width:1366px;
+    height:679px;
+    background-color:#ffffff;
+  }
+
+#div9
+  {
+    width:1366px;
+    height:1216px;
+    background-color:#ffffff;
+    /*border:1px solid #000;*/
+  }
+
+#div11
+{
+  width: 1366px;
+  height: 40px;
+}
+
+#text1
+  {
+    width:500px;
+    height:92px;
+    background-color: #ffffff;
+    margin-top:216px;
+    margin-left: 168px;
+  }
+
+#text2
+  {
+    width:700px;
+    height:200px;
+    background-color: #ffffff;
+    margin-top:80px;
+    margin-left: 168px;
+    line-height:25px;
+  }
+
+#text3
+  {
+    width: 282px;
+    height: 56px;
+     margin-top: 55px;
+     margin-left: 168px;
+     float: left;
+   }
+
+#text4
+  {
+    width: 520px;
+    height: 209px;
+    /*border:1px solid #000;*/
+    margin-right: 95px;
+    margin-top: 55px;
+    float: right;
+  }
+
+  #both
+    {
+      clear: both;
+    }
+
+#text5
+  {
+    width: 250px;
+    height: 76px;
+    /*border:1px solid #000;*/
+    margin-top: 70px;
+    margin-left: 90px;
+    float: left;
+  }
+
+#text6
+  {
+    width: 250px;
+    height: 76px;
+    /*border:1px solid #000;*/
+    margin-top: 70px;
+    margin-left: 70px;
+    float: left;
+  }
+
+#text7
+  {
+    width: 250px;
+    height: 76px;
+    /*border:1px solid #000;*/
+    margin-top: 45px;
+    margin-left: 90px;
+    float: left;
+  }
+
+ #text8
+  {
+    width: 250px;
+    height: 76px;
+    /*border:1px solid #000;*/
+    margin-top: 45px;
+    margin-left: 70px;
+    float: left;
+  }
+
+#text9
+  {
+    width: 230px;
+    height: 89px;
+    /*border:1px solid #000;*/
+    margin-top: 40px;
+    margin-left: 168px;
+    float: left;
+  }
+
+#text10
+  {
+    width: 595px;
+    height: 430px;
+    /*border:1px solid #000;*/
+    margin-top: 40px;
+    margin-right: 50px;
+    float: right;
+    line-height:25px;
+
+  }
+
+#text11
+{
+  width: 100px;
+  height: 38px;
+  /*border:1px solid #000;*/
+  float: left;
+  margin-left: 850px;
+  margin-top: 10px;
+}
+
+#text12
+{
+  width: 100px;
+  height: 38px;
+  /*border:1px solid #000;*/
+  float: right;
+  margin-right: -10px;
+  margin-top: 10px;
+}
+
+#text13
+{
+  width: 50px;
+  height: 38px;
+  /*border:1px solid #000;*/
+  float: left;
+  margin-left: 340px;
+  margin-top: 10px;
+}
+
+#text14
+{
+  width: 130px;
+  height: 38px;
+  /*border:1px solid #000;*/
+  float: right;
+  margin-right: -14px;
+  margin-top: 10px;
+}
+
+#text15
+{
+  width: 210px;
+  height: 76px;
+  /*border:1px solid #000;*/
+  float: left;
+  margin-left: 10px;
+}
+
+#text16
+{
+  width: 520px;
+  height: 180px;
+  /*border:1px solid #000;*/
+  margin-top: 30px;
+}
+
+#box1
+  {
+    width:150px;
+    height:50px;
+    background-color:#ffffff;
+    float:left;
+    margin-left: 610px;
+    margin-top: 17px;
+  }
+
+#box2
+  {
+    width:230px;
+    height:50px;
+    background-color:#ffffff;
+    margin-top: 25px;
+    margin-right:10px;
+    float: right;
+  }
+
+#box3
+  {
+    width:245px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 168px;
+    line-height:32px;
+    float: left;
+  }
+
+#box4
+  {
+    width:610px;
+    height: 511px;
+    margin-top: -140px;
+    margin-left: 716px;
+    /*border:1px solid #000;*/
+    line-height:25px;
+    float: right;
+  }
+
+#box5
+  {
+    width:1366px;
+    height:319px;
+    background-color:#ffffff;
+    position: absolute;
+    margin-top: 270px;
+    opacity:80%;
+    line-height:25px;
+  }
+
+#box10
+  {
+    width:1366px;
+    height:505px;
+    background-color:#ffffff;
+    position: absolute;
+    opacity:80%;
+  }
+
+#box11
+  {
+    width: 270px;
+    height: 89px;
+    /*border:1px solid #000;*/
+    margin-top: 65px;
+    margin-left: 168px;
+    float: left;
+  }
+
+  #box12
+  {
+    width: 1366px;
+    height: 445px;
+    /*border:1px solid #000;*/
+    margin-top: 245px;
+  }
+
+#box13
+{
+  width: 940px;
+  height: 443px;
+  /*border:1px solid #000;*/
+  float: left;
+}
+
+#box14
+{
+  width: 388px;
+  height:443px;
+  /*border:1px solid #000;*/
+  float: right;
+}
+
+#box15
+{
+  width: 1366px;
+  height: 445px;
+  margin-top: 20px;
+  /*border:1px solid #000;*/
+}
+
+#box16
+{
+width: 388px;
+height: 443px;
+/*border:1px solid #000;*/
+float: left;
+}
+
+#box17
+{
+width: 940px;
+height:443px;
+/*border:1px solid #000;*/
+float: right;
+}
+
+#box18
+{
+  width: 1366px;
+  height: 66px;
+  /*border:1px solid #000;*/
+}
+
+#box19
+{
+  width: 1366px;
+  height: 66px;
+  /*border:1px solid #000;*/
+}
+
+#box20
+{
+  width: 25px;
+  height: 43px;
+  /*border:1px solid #000;*/
+  float: left;
+}
+
+#pic1
+{
+  width: 122px;
+  height: 59px;
+}
+
+.head
+{
+  width: 15px;
+  height: 15px;
+  margin: auto;
+}
+body {
+    font-family: 'NanumSquare', sans-serif;
+     }
+
+
+  </style>
+</head>
+
+<body>
+  <div id="wrap">
+    <div id="header1">
+      <div id="box1" >
+        <font size ="5em">
+            ZERO WASTE
+        </font>
+      </div>
+        <div id ='box2'>
+            <a href="#div2">소개</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#div4">심각성</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#div6">움직임</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#div11">노력</a>
+        </div>
+      </div>
+
+  <div id="div1">
+    <div id="text1">
+      <font size ="6em">
+          ZERO-WASTE
+      </font>
+        <br>
+        <p>
+          <font size ="3em">
+            필환경 시대의 "반드시 해야하는" 환경을 지키는 일
+          </font>
+        </p>
+    </div>
+  </div>
+    <div id="div2">
+      <img src= "1.jpg">
+    </div>
+    <div id="div3">
+     <div id = "text2">
+       <font size ="6em">
+           소개 ; Zero - Waste
+       </font>
+         <br>
+       <p>
+         <font size ="3em">
+           포장을 줄이거나 재활용이 가능한 재료를 사용해 쓰레기를 줄이려는 세계적인 움직임.<br>
+           쓰레기 생산을 최소화하는 생활 습관으로 개인뿐만 아니라<br>
+           이를 실천하며 사업 모델로 제시하는 기업들도 많아지고 있다.<br>
+           Zero - Waste Shop은 용기를 미리 준비해<br >
+           내용물을 담아 사가는 형태로 포장지가 없는 가게이다.
+         </font>
+        </p>
+     </div>
+    </div>
+    <div id="div4">
+        <img src= "2.jpg">
+    </div>
+    <div id="div5">
+      <div id = "box3">
+        <div id="pic1">
+          <img src= "cup.png" width="122px" height="59px">
+        </div>
+        <p class="left">
+        <font size ="6em">
+            환경을<br>
+            위협하는 요인들
+        </font>
+      </p>
+      </div>
+      <div id="box4">
+        <font size ="5em">
+           플라스틱 쓰레기 발생량
+        </font>
+        <hr align=left width=37.5%  size=2 color = black>
+        <p>
+          <font size ="3em">
+          각 나라별 국민 1인당 플라스틱 소비량은 한국이 98.2kg으로 가장 많은 소비량을 보였으며, <br>
+          뒤를 이어 미국이 97.7kg, 프랑스가 73kg 정도를 평균적으로 이용하는 것으로 나타난다.
+          </font>
+        </p>
+        <br>
+        <br>
+        <font size ="5em">
+           일회용컵 사용량
+        </font>
+        <hr align=left width=37.5%  size=2 color = black>
+        <p>
+          <font size ="3em">
+            우리나라의 일 평균 플라스틱 쓰레기 발생량은 <br>
+            2018년 5,488t에서 2019년 8,164t으로 급격하게 증가하였음을 알 수 있다.
+          </font>
+        </p>
+        <br>
+        <br>
+        <font size ="5em">
+           사회적 문제
+        </font>
+        <hr align=left width=37.5%  size=2 color = black>
+        <p>
+          <font size ="3em">
+            1. 폐수/수질이 오염된다.<br>
+            2. 재활용율은 14%밖에 되지 않는다.<br>
+            3. 대기오염으로 인한 사망이 증가한다.<br>
+            4. 불필요한 플라스틱을 낭비하게 된다.<br>
+          </font>
+        </p>
+      </div>
+    </div>
+    <div id="div6">
+      <div id= "box5">
+        <div id="text3">
+          <font size ="6em">
+            세계는 에코라이프
+          </font>
+        </div>
+        <div id="text4">
+          <font size ="5em">
+            친환경 빨대, 폐플라스틱 소재, 폐기 소방호스 백
+          </font>
+          <hr align=left width=89%  size=2 color = black>
+          <div id="text16">
+            <p>
+              <font size ="3em">
+                  풍력, 태양열, 바이오매스 등 신재생에너지 개발 및 활용에 앞장서고 있으며 <br>
+                  매장 및 건물에 친환경 콘셉트를 적용함으로써 에너지 절감과 이산화탄소 등 <br>
+                  온실가스 배출 감축에도 적극 나서고 있다.<br>
+                  그 이유는 기업들이 에너지 절약으로 비용을 절감하는 한편,<br>
+                  기업의 친환경 정책을 마케팅에 접목시킴으로써   <br>
+                  기업의 이미지를 제고하는 방안으로 활용하기 위해서이다.<br>
+              </font>
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src= "3.jpg">
+    </div>
+    <div id="div7">
+      <div id="box6">
+        <div id="text5">
+            <font size="6em">
+              제로 웨이스트<br>시작하기
+            </font>
+        </div>
+        <div id="text6">
+          <div id="box20">
+            <font size ="5em">
+              1
+            </font>
+            <hr align=left width=60%  size=2 color = black>
+          </div>
+          <div id="text15">
+            <font size="3em">
+              생활 속에서 가장 많이<br>
+              사용되고 버려지는 일회용<br>
+              쓰레기와 일회용품 관찰<br>
+            </font>
+          </div>
+        </div>
+        <div id="text6">
+          <div id="box20">
+            <font size ="5em">
+              2
+            </font>
+            <hr align=left width=60%  size=2 color = black>
+          </div>
+          <div id="text15">
+            부엌 선반에 있던 텀블러,<br>
+            옷장 서랍에 있는 손수건 등 <br>
+            바로 실천 가능한 방법 찾기<br>
+          </div>
+        </div>
+        <div id="text6">
+          <div id="box20">
+            <font size ="5em">
+              3
+            </font>
+            <hr align=left width=60%  size=2 color = black>
+          </div>
+          <div id="text15">
+            <font size ="3em">
+              가장 많이 사용하고 버리는<br>
+              물건들을 파악하였다면<br>
+              버리지 않을 대안제품 찾기<br>
+            </font>
+          </div>
+        </div>
+        <div id="text7">
+          <div id="box20">
+            <font size ="5em">
+              4
+            </font>
+            <hr align=left width=60%  size=2 color = black>
+          </div>
+          <div id="text15">
+            <font size ="3em">
+              테이크 아웃 시 반찬통,<br>
+              도시락 용기, 냄비, 텀블러 등<br>
+              다회용 용기 활용하기<br>
+            </font>
+          </div>
+        </div>
+        <div id="text8">
+          <div id="box20">
+            <font size ="5em">
+              5
+            </font>
+            <hr align=left width=60%  size=2 color = black>
+          </div>
+          <div id="text15">
+            <font size ="3em">
+              꼭 필요한 물건인지<br>
+              일회용품을 포함하는<br>
+              제품인지 고려하고 소비하기<br>
+            </font>
+          </div>
+        </div>
+        <div id="text8">
+          <div id="box20">
+            <font size ="5em">
+              6
+            </font>
+            <hr align=left width=60%  size=2 color = black>
+          </div>
+          <div id="text15">
+            <font size ="3em">
+              스킨, 비누, 세제 등<br>
+              사지 않고 만들 수 있는<br>
+              기술 배우고 익히기<br>
+            </font>
+          </div>
+        </div>
+        <div id="text8">
+          <div id="box20">
+            <font size ="5em">
+              7
+            </font>
+            <hr align=left width=60%  size=2 color = black>
+          </div>
+          <div id="text15">
+            재활용을 위해<br>
+            분리배출하는 방법<br>
+            찾아보고 실천하기<br>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div id="div8">
+      <div id="box10">
+        <div id="text9">
+          <font size="6em">
+            누구나<br>쉽게 할 수 있는
+          </font>
+        </div>
+        <div id="text10">
+          <font size ="5em">
+            플로깅
+          </font>
+          <hr align=left width=11%  size=2 color = black>
+          <p>
+            <font size ="3em">
+              PICK UP + JOGGING = PLOGGING... 조깅을 하며 쓰레기를 줍는다. <br><br>
+              조깅을 하면서 쓰레기를 줍는 운동인 '플로깅'은 이삭을 줍는다는 뜻인 <br>
+              스웨덴어 PLOCKA UPP(PICK UP)과 조깅(JOGGING)을 합친 말이다.  <br>
+              최근엔 프랑스, 아이슬란드, 미국 등 전세계적으로 확산되는 추세다.  <br>
+            </font>
+          </p><br>
+          <font size ="5em">
+            스포고미
+          </font>
+          <hr align=left width=14%  size=2 color = black>
+          <p>
+            <font size ="3em">
+              2020년 도쿄올림픽에 ‘특정 관객 정식 종목’으로 채택<br><br>
+              스포츠와 쓰레기를 뜻하는 일본어 고미가 합쳐진 ‘스포고미(Spogomi)’ 대회이다.<br>
+              엄연한 스포츠로 정해진 구역 안에서 제한 시간 안에 많은 쓰레기를 줍는 것이 규칙이다.<br>
+              쓰레기 종량제봉투의 무게를 달아 각 쓰레기마다 정해진 포인트를 합산해 승부를 가린다.<br>
+              작년 10월, 우리나라에서도 쓰레기 줍기 대회가 열렸다.<br>
+            </font>
+          </p>
+        </div>
+      </div>
+        <img src= "4.jpg">
+    </div>
+    <div id="div11">
+    </div>
+    <div id="box11">
+      <font size="6em">
+        다양한<br> 일상 속 대안물품
+      </font>
+    </div>
+    <div id="div9">
+      <div id="box12">
+        <div id="box13">
+          <img src= "5.jpg">
+        </div>
+        <div id="box14">
+          <img src= "6.jpg">
+        </div>
+      </div>
+      <div id="box18">
+        <div id="text11">
+          <font size ="5em">
+            소창행주
+          </font>
+          <hr align=left width=85%  size=2 color = black>
+        </div>
+        <div id="text12">
+          <font size ="5em">
+            면생리대
+          </font>
+          <hr align=left width=85%  size=2 color = black>
+        </div>
+      </div>
+      <div id="box15">
+        <div id="box16">
+          <img src= "7.jpg">
+        </div>
+        <div id="box17">
+          <img src= "8.jpg">
+        </div>
+      </div>
+      <div id="box19">
+        <div id="text13">
+          <font size ="5em">
+            그랩
+          </font>
+          <hr align=left width=85%  size=2 color = black>
+        </div>
+        <div id="text14">
+          <font size ="5em">
+            다회용 빨대
+          </font>
+          <hr align=left width=85%  size=2 color = black>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
